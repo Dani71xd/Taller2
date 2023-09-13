@@ -469,4 +469,17 @@ a:focus-visible {
   background-color: #858282;
 }
 
+.content__item-historia {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.oh__inner {
+  white-space: normal;
+}
+
 /*# sourceMappingURL=index.d046a61c.css.map */

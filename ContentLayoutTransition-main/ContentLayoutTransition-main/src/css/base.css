@@ -472,3 +472,16 @@ a:focus-visible {
 .premios tr:nth-child(even) {
     background-color: #858282;
 }
+
+.content__item-historia {
+    max-width: 600px; 
+    margin-left: auto; 
+    margin-right: auto;
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+}
+
+.oh__inner {
+    white-space: normal; 
+}
