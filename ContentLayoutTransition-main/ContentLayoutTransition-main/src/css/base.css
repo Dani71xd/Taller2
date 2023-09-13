@@ -451,3 +451,24 @@ a:focus-visible {
 		opacity: 1;
 	}
 }
+
+.premios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.premios th, .premios td {
+    border: 1px solid #494848;
+    padding: 8px;
+    text-align: left;
+}
+
+.premios th {
+    background-color: #333;
+    color: white;
+}
+
+.premios tr:nth-child(even) {
+    background-color: #858282;
+}

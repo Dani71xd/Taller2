@@ -448,4 +448,25 @@ a:focus-visible {
   }
 }
 
+.premios {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.premios th, .premios td {
+  text-align: left;
+  border: 1px solid #494848;
+  padding: 8px;
+}
+
+.premios th {
+  color: #fff;
+  background-color: #333;
+}
+
+.premios tr:nth-child(2n) {
+  background-color: #858282;
+}
+
 /*# sourceMappingURL=index.d046a61c.css.map */
